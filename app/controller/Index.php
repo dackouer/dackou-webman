@@ -8,7 +8,11 @@ class Index
 {
     public function index(Request $request)
     {
-        return response('hello webman');
+        $time = '1661501134';
+        $date = date('Y-m-d H:i:s',$time);
+        $t = strtotime($date);
+
+        return response('time: '.$time. ' time chuo: '.$date . ' t: '.$t);
     }
 
     public function view(Request $request)
