@@ -23,8 +23,8 @@ return [
             'host'        => '127.0.0.1',
             'port'        => 3306,
             'database'    => 'dackou',
-        'username'    => 'dackou',
-            'password'    => 'RxF8CtEBDzJckESP',         // p3WStX5mb4jc7SRx
+            'username'    => 'dackou',
+            'password'    => 'Dackou.2023',         // p3WStX5mb4jc7SRx
             'unix_socket' => '',
             'charset'     => 'utf8',
             'collation'   => 'utf8_unicode_ci',

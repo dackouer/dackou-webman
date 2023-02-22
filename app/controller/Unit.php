@@ -6,7 +6,7 @@
 	use app\model\UnitModel;
 
 	class Unit{
-		public function index(Request $request,$id = 0){
+		public function index(Request $request,$id = 1){
 			if($id){
 				$service = new UnitModel();
 				$result = $service->getList($request,$id);
